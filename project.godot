@@ -22,6 +22,10 @@ window/size/mode=2
 window/stretch/mode="viewport"
 window/stretch/aspect="keep"
 
+[autoload]
+
+GameStateManager="*res://Scripts/GameStateManager.cs"
+
 [dotnet]
 
 project/assembly_name="Aurelius"

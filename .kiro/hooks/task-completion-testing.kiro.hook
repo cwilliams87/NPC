@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "name": "Task Completion Testing",
+  "description": "When a task completion file is created or modified, automatically perform testing and validation and save the results in the Testing folder",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "*TASK*COMPLETE*.md",
+      "*task*complete*.md"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A task completion file has been detected. Please:\n1. Review the completed task details\n2. Perform appropriate testing and validation for the completed work\n3. Document the test results and validation findings\n4. Save all testing documentation in the Testing/ folder with clear filenames\n5. Ensure the validation covers functionality, code quality, and requirements compliance"
+  }
+}

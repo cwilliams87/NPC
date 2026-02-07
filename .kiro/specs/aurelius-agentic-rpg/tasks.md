@@ -12,7 +12,10 @@
   - Create base folder structure: Scripts/, Scenes/, Assets/, TileMaps/
   - _Requirements: 5.1, 10.5_
 
-- [ ] 2. Implement GameStateManager singleton
+- [x] 2. Implement GameStateManager singleton
+
+
+
   - Create GameStateManager.cs as autoload singleton
   - Implement EconomicIndex, SocialCohesion, and KarmaPolarity properties with default values
   - Implement ModifyKarma() method with clamping logic (-100 to +100)
