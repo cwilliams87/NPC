@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://bqm8xvj3yvwxo"]
+[gd_scene load_steps=4 format=3 uid="uid://bqm8xvj3yvwxo"]
 
 [ext_resource type="Script" path="res://Scripts/Tests/GameStateManagerTests.cs" id="1_test"]
 [ext_resource type="Script" path="res://Scripts/Tests/VisualLayerControllerTests.cs" id="2_test"]
+[ext_resource type="Script" path="res://Scripts/Tests/AgentNetworkClientTests.cs" id="3_test"]
 
 [node name="TestScene" type="Node"]
 
@@ -10,3 +11,6 @@ script = ExtResource("1_test")
 
 [node name="VisualLayerControllerTests" type="Node" parent="."]
 script = ExtResource("2_test")
+
+[node name="AgentNetworkClientTests" type="Node" parent="."]
+script = ExtResource("3_test")

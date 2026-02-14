@@ -1,0 +1,25 @@
+# Core FastAPI dependencies
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.9.2
+python-dotenv==1.0.1
+
+# LangGraph and LangChain (installed without numpy dependency)
+# Note: Install numpy separately first: pip install numpy
+# Then install these with: pip install langgraph-checkpoint langsmith jsonpatch tenacity SQLAlchemy aiohttp
+# Finally: pip install langgraph langchain langchain-text-splitters --no-deps
+langgraph>=1.0.0
+langchain>=1.2.0
+langchain-core>=1.2.0
+langchain-text-splitters>=1.1.0
+langgraph-checkpoint>=4.0.0
+
+# LangChain dependencies
+langsmith>=0.7.0
+jsonpatch>=1.33
+tenacity>=9.1.0
+SQLAlchemy>=2.0.0
+aiohttp>=3.13.0
+
+# Numpy (install first to avoid build issues)
+numpy>=2.0.0

@@ -32,7 +32,7 @@
   - Write unit tests for threshold logic and layer switching
   - _Requirements: 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 5.3_
 
-- [ ] 4. Build AgentNetworkClient for backend communication
+- [x] 4. Build AgentNetworkClient for backend communication
   - Create AgentNetworkClient.cs with HTTPRequest node management
   - Implement SpawnAgent() async method with JSON serialization
   - Implement GetDialogue() async method for NPC interactions
@@ -42,7 +42,7 @@
   - Write unit tests with mocked HTTPRequest responses
   - _Requirements: 5.6, 7.1, 7.2, 7.3, 7.4, 7.5, 7.6, 7.7_
 
-- [ ] 5. Implement NPCController for individual NPC management
+- [x] 5. Implement NPCController for individual NPC management
   - Create NPCController.cs script for NPC sprite management
   - Implement properties for npc_id, backstory_summary, personality_weights
   - Implement click/interaction event handling
@@ -52,7 +52,7 @@
   - Write integration tests for NPC interaction flow
   - _Requirements: 2.6, 2.7_
 
-- [ ] 6. Set up Python backend project structure
+- [x] 6. Set up Python backend project structure
   - Create Python project with virtual environment
   - Install dependencies: fastapi, uvicorn, langgraph, langchain, pydantic
   - Create main.py with FastAPI application initialization
