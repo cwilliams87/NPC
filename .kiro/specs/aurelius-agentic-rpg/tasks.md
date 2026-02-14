@@ -23,7 +23,7 @@
   - Write unit tests for karma modification and signal emission
   - _Requirements: 5.2, 5.5, 3.1, 3.2_
 
-- [ ] 3. Create VisualLayerController for dynamic environment switching
+- [x] 3. Create VisualLayerController for dynamic environment switching
   - Create VisualLayerController.cs script
   - Implement TileMapLayer reference properties (BaseGrass, NatureDeco, IndustrialDeco, TransitionParticles)
   - Subscribe to GameStateManager.KarmaPolarityChanged signal
