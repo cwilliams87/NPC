@@ -60,7 +60,7 @@
   - Configure CORS middleware for Godot client communication
   - _Requirements: 6.1_
 
-- [ ] 7. Define Pydantic models for API contracts
+- [x] 7. Define Pydantic models for API contracts
   - Create models/api_models.py with Pydantic BaseModel classes
   - Implement TownContext, OriginData, SpawnAgentRequest models
   - Implement PersonalityProfile, AgentSpawnResponse models
